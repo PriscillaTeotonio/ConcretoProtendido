@@ -13,10 +13,29 @@
 Seção transversal: b = 0,20 m e h = 0,75 m</p>
 
 <p align="justify"><b>Ações em que a viga está sujeita:</b></p>
-<p>Peso próprio: g = 0,20*0,75*25 = 3,75 kN/m <br>
+<p>Peso próprio: \(g = 0,20 \cdot 0,75 \cdot 25 = 3,75 kN/m\) <br> 
 Carga acidental q = 15 kN/m <br>
 força de protensão P = -600 kN, aplicada com excentricidade ep = 0,125 m com relação ao eixo baricêntro da seção transversal.
 </p>
 
 <p align="justify"><b>1) Cálculo das características geométricas e mecânicas da seção transversal</b></p>
+<p>\[I= \frac{b\cdot h^{3}}{12}= 7,03\cdot 10^{-3} m^{4}\] <br>
+\[y_{1}= -y_{2}= 0,375\] <br>
+\[W_{1}= -W_{2}= \frac{I}{y_{1}}= 18,75\cdot 10^{-3}\] <br>
+\[A= b\cdot h= 0,150 m^{2}\] <br>
+Distância das extremidades do núcleo central da seção ao centro de gravidade = 0,125 m</p>
 
+<p align="justify"><b>2) Cálculo dos esforços solicitantes e tensões normais no meio do vão</b></p>
+<p>a) Tensões devidas ao peso próprio</p>
+<p>\[M_{g1}= \frac{q\cdot l^{2}}{8}= \frac{3,75\cdot 7^{2}}{8}= 22,97 \: kN\cdot m\] <br>
+\[\sigma_{1g1}= \frac{M_{g1}}{W_{1}}= 1,23\:  MPa \: (na\: borda\:  inferior)\] <br>
+\[\sigma_{2g1}= \frac{M_{g1}}{W_{2}}=- 1,23\:  MPa \: (na\: borda\:  superior)\] </p>
+
+<p>b) Tensões devidas a carga acidental</p>
+<p>\[M_{q}= \frac{q\cdot l^{2}}{8}= \frac{15\cdot 7^{2}}{8}= 91,88 \: kN\cdot m\] <br>
+\[\sigma_{1q}= \frac{M_{q}}{W_{1}}= 4,9\:  MPa \: (na\: borda\:  inferior)\] <br>
+\[\sigma_{2q}= \frac{M_{q}}{W_{2}}=- 4,9\:  MPa \: (na\: borda\:  superior)\] </p>
+
+<p>c) Tensões devidas à força de protensão</p>
+<p>\[P=-600 kN\] <br>
+\[M_{P}= P\cdot e_{P}\] <br>
