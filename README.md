@@ -45,11 +45,11 @@ Distância das extremidades do núcleo central da seção ao centro de gravidade
 <p align="justify"><b>3) Combinação das ações</b></p>
 <p>a) Estado em vazio</p>
 <p>Representando graficamente as tensões provocadas por cada ação e a sua somatória:</p>
-<img src="Estado em vazio.png" /> </p>
+<p align="center"><img src="Estado em vazio.png" /> </p>
 
 <p>a) Estado em serviço</p>
 <p>Analogamente ao caso anterior, resulta:</p>
-<img src="Estado em serviço.png" /> </p>
+<p align="center"><img src="Estado em serviço.png" /> </p>
 
 <p align="justify"><b>4) Primeira análise dos resultados</b></p>
 <p>De imediato, pode-se observar que:</p>
@@ -88,11 +88,11 @@ Distância das extremidades do núcleo central da seção ao centro de gravidade
 
 <p>a) Estado em vazio</p>
 <p>Nesta nova combinação resulta:</p>
-<img src="Estado em vazio 2.png" /> </p>
+<p align="center"><img src="Estado em vazio 2.png" /> </p>
 
 <p>a) Estado em serviço</p>
 <p>Analogamente ao caso anterior, resulta:</p>
-<img src="Estado em serviço 2.png" /> </p>
+<p align="center"><img src="Estado em serviço 2.png" /> </p>
 
 <p align="justify"><b>8) Segunda análise de resultados</b></p>
 
